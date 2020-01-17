@@ -1,0 +1,220 @@
+body {
+  margin: auto;
+  color: aliceblue;
+}
+
+a {
+  color: #5FBEB2;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h4 {
+  font-size: 20pt;
+}
+
+p {
+  font-size: 15pt;
+}
+
+.header {
+  background: #1C2230;
+  margin-bottom: -5px;
+}
+
+.logo {
+  display: inline-block;
+  width: 30%;
+  height: 150px;
+  line-height: 200px;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  width: 40%;
+  height: 150px;
+  margin-right: 20px;
+  float: right;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav p {
+  font-size: xx-large;
+}
+
+main {
+  background-color: #161F2A;
+  text-align: center;
+}
+
+.underheader {
+  background-color: #1C2230;
+  background-image: url(images/bg-curvy-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  padding: 0 20% 5% 20%;
+}
+
+.underheader p {
+  font-size: 25pt;
+  padding: 10px 10%;
+}
+
+.button_1 {
+  padding: 20px 100px;
+  border-radius: 50px;
+}
+
+.button_2 {
+  padding: 15px 40px;
+  border-radius: 50px;
+}
+
+.button_1, .button_2 {
+  background: linear-gradient(to right, #4ECAD6, #3FADD0);
+  outline: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+}
+
+.four_elements {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  width: 70vw;
+  margin: auto;
+}
+
+.element {
+  flex-basis: 40%;
+  padding: 5%;
+}
+
+.stay_productive {
+  width: 50vw;
+  height: 450px;
+  float: left;
+}
+
+.stay_productive_text {
+  width: 40vw;
+  display: inline-block;
+  padding: 25px 30px;
+  text-align: initial;
+}
+
+.comments {
+  background-image: url("images/bg-quotes.png");
+  background-repeat: no-repeat;
+  background-position: 0 10%;
+  margin: auto;
+  display: flex;
+  width: 90vw;
+  height: 300px;
+  align-items: center;
+  justify-content: space-around;
+  text-align: left;
+}
+
+.comm {
+  background: #1C2230;
+  padding: 20px 40px;
+  flex-basis: 25%;
+}
+
+.comm p {
+  font-size: 12pt;
+}
+
+.comm p, h5 {
+  margin: 5px;
+}
+
+.comm_author {
+  display: inline-block;
+  float: left;
+}
+
+.comm_author img {
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.form_box {
+  position: relative;
+  bottom: -80px;
+  background-color: #1C2230;
+  width: 70%;
+  margin: auto;
+  padding: 20px 50px;
+}
+
+.email_form {
+  width: 35vw;
+  height: 50px;
+  border-radius: 50px;
+  text-indent: 40px;
+  margin-right: 20px;
+}
+
+fieldset, fieldset:focus {
+  border: none;
+}
+
+footer {
+  background-color: black;
+  margin-top: -5px;
+  padding: 120px 50px 20px 50px;
+}
+
+.logo_bottom {
+  padding: 20px 0;
+}
+
+table p {
+  margin: 0;
+}
+
+td {
+  vertical-align: top;
+  padding: 10px;
+}
+
+.cell_0 {
+  width: 2%;
+}
+
+.cell_1 {
+  width: 30%;
+}
+
+.cell_2 {
+  width: 3%;
+}
+
+.cell_3 {
+  width: 20%;
+}
+
+.cell_4 {
+  width: 15%;
+}
+
+.cell_5 {
+  width: 15%;
+}
+
+.cell_5 img {
+  padding: 0 3px;
+}
