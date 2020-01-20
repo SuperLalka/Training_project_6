@@ -204,12 +204,15 @@ main {
 .button_2 {
   border-radius: 50px;
 }
-.button_1, .button_2 {
+.button {
   background: linear-gradient(to right, #4ECAD6, #3FADD0);
   outline: none;
   border: none;
   color: white;
   font-size: 20px;
+}
+.button:active {
+  background: linear-gradient(to top, #4ECAD6, #3FADD0);
 }
 .four_elements {
   display: flex;
@@ -257,6 +260,7 @@ main {
   height: 50px;
   border-radius: 50px;
   text-indent: 40px;
+  outline: none;
 }
 fieldset, fieldset:focus {
   border: none;
